@@ -54,7 +54,7 @@ def graficarCoodenadas(unidad, crimen):
 
     #abrir ventana con imagen, puntos y lineas 
     ax.imshow(img2, zorder=0, extent = BBox2, aspect= 'equal')
-    #plt.show()
+    plt.show()
     plt.savefig("images/plot.png")
     
 def distancia(unidad, crimen):
