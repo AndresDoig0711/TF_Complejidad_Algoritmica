@@ -24,7 +24,7 @@ def vista_djikstra():
     bg2 = PhotoImage(file="images/plot.png", master=newWindow)
     canvas2 = Canvas(newWindow, width=1470, height=1200)
     canvas2.pack(fill="both", expand=True)
-    canvas2.create_image(0, 0, image=bg2, anchor = "n")
+    canvas2.create_image(0, 0, image=bg2, anchor = "nw")
 
     label1 = Label(newWindow, text=distancia(unidad, crimen), bg = "white")
     label1.pack(pady = 30)
