@@ -2,7 +2,7 @@ from tkinter import *
 from algoritmo_FW import plot_FW
 import time
 
-destino = 10
+destino = 15 #10
 unidad = [-77.016280,-12.113218]
 
 def openFW():
