@@ -29,7 +29,7 @@ def main():
     height=2, width=25, bg='#0052cc', fg='#ffffff', command=openFW)
     button2['font'] = myFont
     button2.pack(pady = 50)
-
+    
     window.mainloop()
 
 main()
